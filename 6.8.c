@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+    int i = 1, j;
+    while(i <= 7){
+        j = 1;
+        while(j <= i){
+            printf("*");
+            j++;
+        }
+        printf("       ");
+        j = 1;
+        while(j <= i)
+        {
+            printf("*");
+            j++;
+        }
+
+        printf("\n");
+        i++;
+    }
+
+    return 0;
+}
